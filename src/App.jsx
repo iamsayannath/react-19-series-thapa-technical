@@ -1,11 +1,10 @@
-//subscribe to Thapa Technical Youtube Channel - https://www.youtube.com/thapatechnical
+import { LiftingState } from "./components/LiftStateUp";
 
-import { ReactMemo } from "./hooks/Memo/ReactMemo";
 
 export const App = () => {
   return (
     <>
-      <ReactMemo />
+      <LiftingState/>
     </>
   );
 };
